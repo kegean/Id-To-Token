@@ -30,3 +30,4 @@ print(Fore.RED + Style.BRIGHT + f"\nEncoded ID (Base64): {encoded_id}" + Style.R
 # Display the first half of the encoded string in RED
 half_length = len(encoded_id) // 2
 print(Fore.RED + Style.BRIGHT + f"\nFirst half: {encoded_id[:half_length]}" + Style.RESET_ALL)
+input("\nPress Enter to exit...")
